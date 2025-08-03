@@ -5,7 +5,7 @@ export default function Results({ input }) {
   const resultData = calculateInvestmentResults(input);
             const initialInvestment=resultData[0].valueEndOfYear-resultData[0].interest-resultData[0].annualInvestment;
 
-  console.log(resultData);
+  //console.log(resultData);
   return (
     <table id="result">
       <thead>
